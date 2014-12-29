@@ -1,0 +1,17 @@
+package wiki.tagger.proto;
+
+option java_package = "wiki.tagger.proto";
+
+option java_outer_classname = "WikiTaggerProtos";
+
+message WikiCategory {
+    required string category = 1;
+    required string label = 2;
+}
+
+message WikiArticle {
+    required string id = 1;
+    required string label = 2;
+    repeated WikiCategory category = 3;
+}
+

@@ -1,0 +1,5 @@
+# start
+<http://dbpedia.org/resource/Albedo> <http://purl.org/dc/terms/subject> <http://dbpedia.org/resource/Category:Radiation> .
+<http://dbpedia.org/resource/A> <http://purl.org/dc/terms/subject> <http://dbpedia.org/resource/Category:ISO_basic_Latin_letters> .
+<http://dbpedia.org/resource/A> <http://purl.org/dc/terms/subject> <http://dbpedia.org/resource/Category:Vowel_letters> .
+# end

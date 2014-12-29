@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/mapper/mapper.iml" filepath="$PROJECT_DIR$/mapper/mapper.iml" />
+      <module fileurl="file://$PROJECT_DIR$/proto-def/proto-def.iml" filepath="$PROJECT_DIR$/proto-def/proto-def.iml" />
+      <module fileurl="file://$PROJECT_DIR$/wiki-tagger.iml" filepath="$PROJECT_DIR$/wiki-tagger.iml" />
+    </modules>
+  </component>
+</project>
