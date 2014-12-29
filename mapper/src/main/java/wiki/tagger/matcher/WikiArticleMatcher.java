@@ -31,7 +31,7 @@ public class WikiArticleMatcher implements WikiMatcher {
         Matcher matcher = pattern.matcher(in);
 
         if (!matcher.find()) {
-            log.info("Pattern not found for :: " + in);
+            log.finest("Pattern not found for :: " + in);
             throw new MatcherException("Pattern not found for :: \" + in");
         }
         //match Article

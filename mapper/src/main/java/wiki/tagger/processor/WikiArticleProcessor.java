@@ -41,10 +41,10 @@ public class WikiArticleProcessor implements Processor {
                 line = reader.nextLine();
                 Tuple<String, WikiCategory> tuple;
                 try {
-                    log.info("Processing : " + line);
+                    log.finest("Processing : " + line);
                     tuple = matcher.match(line);
                 } catch (MatcherException e) {
-                    log.info("No match found for current line. Skipping");
+                    log.finest("No match found for current line. Skipping");
                     continue;
                 }
 
